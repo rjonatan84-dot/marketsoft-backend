@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/rjonatan84-dot/marketsoft-backend/issues"
   },
-  "homepage": "https://github.com/rjonatan84-dot/marketsoft-backend#readme"
+  "homepage": "https://github.com/rjonatan84-dot/marketsoft-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
