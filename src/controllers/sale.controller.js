@@ -76,7 +76,7 @@ exports.create = async (req, res, next) => {
     }
 
     // 3) actualizar total
-    await sale.update({ total: total.toFixed(2) }, { transaction: t });
+    await sale.update({ total: Number(total.toFixed(2)) }, { transaction: t });
 
     await t.commit();
 

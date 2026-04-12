@@ -1,5 +1,5 @@
 const sequelize = require('./database');
-require('../models/index.model');
+require('../models');
 
 class DatabaseSync{
     static async sync() {
