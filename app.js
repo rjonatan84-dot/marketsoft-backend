@@ -5,6 +5,8 @@ const DatabaseSync = require("./src/config/sync");
 const swaggerUi = require("swagger-ui-express");
 const swaggerSpec = require("./src/swagger/swagger");
 
+
+
 // Rutas
 const productRoutes = require("./src/routes/product.routes");
 const providerRoutes = require("./src/routes/provider.routes");
