@@ -186,7 +186,7 @@ npm install
 PORT=3000
 DB_HOST=localhost
 DB_USER=postgres
-DB_PASSWORD=Robot2024*
+DB_PASSWORD=*****
 DB_NAME=marketsoft
 DB_DIALECT=postgres
 ```
